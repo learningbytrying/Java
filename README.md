@@ -1,5 +1,11 @@
 # Java8 New Features
 
+Predicates can also be used in assignment context :
+From Java8 documentation:
+// Assignment context
+     Predicate<String> p = String::isEmpty;
+  This is interesting , i can do a null check 
+====
 1) Lambda Expressions
 2) Functional Interfaces  --> used to call lambda expressions
 Functional interface is not new in java , i think Runnable is already functional interface but this is used more now
