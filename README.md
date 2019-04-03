@@ -1,5 +1,6 @@
-# Java8 New Features
 
+Predicate chaining .and() could throw a NPE
+=============
 Predicates can also be used in assignment context :
 From Java8 documentation:
 // Assignment context
